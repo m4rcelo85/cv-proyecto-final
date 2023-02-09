@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+body{
+    background-color: rgba(100, 186, 30, 0.488);
+
+}
+.encabezado{
+    
+    margin: 3px 0 0 150px;
+    display: flex;
+    height: 280px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 50px 5px;
+    background-color: rgb(113, 115, 116);
+}
+.encabezado img{
+    position:relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px ;
+    border: 2px solid black;
+    margin: 25px 50px 0 150px;
+    box-shadow: 20px 20px 20px;
+}
+.encabezado div{
+    display: block;
+    margin: 2px 0 0 100px;
+    font-size: 40px;
+    text-shadow:  20px 20px 20px;
+}
+.anclas a{
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+    
+}
+.anclas a:hover{
+    color: aliceblue;
+    padding-left: 15PX;   
+}
+
+.seccion{
+    margin: 3px 0 0 150px;
+    display: block;
+    height: auto;
+    width: 80%;
+    border: 2px solid rgb(128, 117, 117);
+    border-radius: 50px 5px;
+    background-color: rgb(236, 236, 243);
+}
+
+
+.seccion h2{
+
+    font-size: 55px;
+    margin-left: 40%;
+}
+.seccion #acercaDeMi{
+    margin-left: 100px;
+    column-count: 2;
+}
+.seccion p {
+    font-size: 40px;
+    margin:20px;
+}
+.seccion ul{
+    margin-left: 100px;
+}
+.seccion li {
+    list-style-type: none;
+    font-size: 40px;
+    
+}
+
+.seccion:hover{
+
+    background-color: rgb(202, 220, 216);
+    margin-top: 20px;
+}
+.seccion .contacto{
+    font-size: 45px;
+    padding-top: 25px;
+    text-align: center;
+    color: rgb(60, 60, 63);
+}
+.seccion i{
+   margin: 10px 0 0 110px;
+   color: rgb(57, 58, 58);
+   padding: 55px;
+   font-size: 60px;
+}
+.seccion i:hover{
+    color: black;
+    transform: scale(1.8);    
+}
+
+
+
+
+
+
