@@ -5,7 +5,7 @@ function crear() {
         .then(data => {
             console.log(data);
             mostrarImagen(data.results[0].picture.large);
-            nombreYapellido(data.results[0].name.first, data.results[0].name.last);
+            nombreYapellido(data.results[0].name.first, data.results[0].name.last,data.results[0].name.title);
             let array = [
                 data.results[0].phone, data.results[0].email, data.results[0].location.state + ',' + data.results[0].location.country, data.results[0].cell
             ];
@@ -22,9 +22,10 @@ function mostrarImagen(variable) {
     img.setAttribute('src', variable);
 }
 
-function nombreYapellido(nombre, apellido) {
+function nombreYapellido(nombre, apellido,titulo) {
     document.querySelector('#nombre').innerHTML = nombre;
     document.querySelector('#apellido').innerHTML = apellido;
+    document.querySelector('#titulo').innerHTML = titulo;
 }
 
 function iconos(array) {
